@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="KataBanK" />
+        <module name="bank" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="KataBanK" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
